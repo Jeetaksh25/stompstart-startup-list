@@ -1,0 +1,50 @@
+name: RemoveBackgroundMusic
+tagline: Strip the music from a video and keep the voices
+description: >-
+  A browser tool that takes a finished video and removes or reduces the background music
+  while leaving speech and sound effects in place. A free preview runs before anything
+  is committed, and the site answers the usual questions about which material works and
+  what it costs.
+problem: >-
+  Separating music from dialogue in a finished edit usually means going back to the
+  project files or paying for an audio suite.
+audience:
+  - Video editors
+  - Podcasters
+  - Content creators
+website: "https://removebackgroundmusic.com/"
+access:
+  - kind: browse
+    url: "https://removebackgroundmusic.com/"
+categories:
+  - media
+  - productivity
+stage: live
+pricing:
+  model: usage_based
+  pricing_url: "https://removebackgroundmusic.com/pricing"
+company:
+  name: RemoveBackgroundMusic
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://removebackgroundmusic.com/"
+    title: Official site
+launch:
+  title: RemoveBackgroundMusic released for separating music from dialogue
+  summary: A browser tool that removes background music from a video and keeps the speech.
+  occurred_on:
+    precision: day
+    value: 2026-09-26
+  date_basis: effective
+  source:
+    url: "https://news.ycombinator.com/item?id=49856857"
+    title: "Show HN, RemoveBackgroundMusic, preview background music reduction"
+    locator: The submission announces the tool and links the site
+logo:
+  path: logo.png
+  alt: "The RemoveBackgroundMusic logo mark, a square app icon"
+gallery:
+  - path: product.png
+    alt: The RemoveBackgroundMusic share image showing the tool
