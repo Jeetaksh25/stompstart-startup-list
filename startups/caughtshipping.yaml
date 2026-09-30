@@ -1,0 +1,48 @@
+name: CaughtShipping
+tagline: A curfew app for developers who ship late
+description: >-
+  A tool for people who keep working past the hour they meant to stop. The user sets a
+  cutoff, and the app holds them to it. The site describes the mechanism plainly and the
+  page is built to run without third-party tracking until consent is given.
+problem: >-
+  Late-night shipping is easy to start and hard to stop, and a normal alarm does not
+  stand between a developer and a deploy.
+audience:
+  - Software developers
+  - Remote workers
+  - Students
+website: "https://caughtshipping.com/"
+access:
+  - kind: browse
+    url: "https://caughtshipping.com/"
+categories:
+  - productivity
+  - everyday-life
+stage: live
+pricing:
+  model: free
+company:
+  name: CaughtShipping
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://caughtshipping.com/"
+    title: Official site
+launch:
+  title: CaughtShipping released as a curfew app for developers
+  summary: A small web app that enforces a stop time for people who ship late.
+  occurred_on:
+    precision: day
+    value: 2026-09-26
+  date_basis: effective
+  source:
+    url: "https://news.ycombinator.com/item?id=49859733"
+    title: "Show HN, CaughtShipping, curfew app for developers"
+    locator: The submission announces the app and links the site
+logo:
+  path: logo.png
+  alt: "The CaughtShipping logo, a square app icon"
+gallery:
+  - path: product.png
+    alt: The CaughtShipping share image showing the curfew app
