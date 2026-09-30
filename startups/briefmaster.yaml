@@ -1,0 +1,50 @@
+name: BriefMaster 3000
+tagline: Creative brief management for agencies
+description: >-
+  A tool for agencies that keeps creative briefs in one place instead of across email
+  threads and documents. A brief carries the request, the client and the stage it has
+  reached, so the team can see what has been asked for and what has been approved
+  without reconstructing it from a mailbox.
+problem: >-
+  Agency briefs arrive as email and live in scattered documents, so nobody can say with
+  confidence what a client actually approved.
+audience:
+  - Creative agencies
+  - Marketing teams
+  - Freelance designers
+website: "https://www.briefmaster3000.com/"
+access:
+  - kind: signup
+    url: "https://www.briefmaster3000.com/"
+categories:
+  - business-software
+  - productivity
+stage: live
+pricing:
+  model: usage_based
+  pricing_url: "https://www.briefmaster3000.com/"
+company:
+  name: BriefMaster 3000
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://www.briefmaster3000.com/"
+    title: Official site
+launch:
+  title: BriefMaster 3000 released for agency creative brief management
+  summary: A tool that keeps creative briefs and their approval stage in one place.
+  occurred_on:
+    precision: day
+    value: 2026-09-29
+  date_basis: effective
+  source:
+    url: "https://news.ycombinator.com/item?id=49892478"
+    title: "Show HN, BriefMaster 3000, creative brief management for agencies"
+    locator: The submission announces the tool and links the site
+logo:
+  path: logo.png
+  alt: "The BriefMaster 3000 logo, a square app icon"
+gallery:
+  - path: product.png
+    alt: The BriefMaster 3000 share image showing the brief dashboard
