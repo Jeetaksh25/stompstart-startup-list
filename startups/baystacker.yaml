@@ -1,0 +1,51 @@
+# BayStacker: shop software that checks the repair before invoicing
+
+name: BayStacker
+tagline: Repair shop software that verifies the job before the invoice
+description: >-
+  Software for independent auto repair shops. A shop types the symptom and sees
+  what was actually found inside the matching cases before anyone starts the
+  teardown, because the product keeps a library of recorded real repairs behind
+  each diagnosis. Invoicing is gated: the customer-facing invoice is released
+  only once the verification step on that job is complete.
+problem: Independent repair shops diagnose from memory and invoice from habit, so a job can be billed before anyone confirms what was actually wrong.
+audience:
+  - Independent auto repair shops
+  - Transmission and drivetrain specialists
+  - Service managers
+website: https://baystacker.com/
+access:
+  - kind: signup
+    url: https://baystacker.com/
+categories:
+  - business-software
+  - productivity
+stage: live
+pricing:
+  model: usage_based
+  pricing_url: https://baystacker.com/pricing
+company:
+  name: BayStacker
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: https://baystacker.com/
+    title: Official site
+launch:
+  title: BayStacker released as shop software with a verification gate on invoicing
+  summary: An operating system for transmission shops that holds the invoice until the repair is verified.
+  occurred_on:
+    precision: day
+    value: "2026-09-29"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=49899667
+    title: Show HN - An OS for transmission shops that gates the invoice on verification
+    locator: The submission, posted 2026-09-29, announces the product and links the site
+logo:
+  path: logo.png
+  alt: The BayStacker logo, a square app icon
+gallery:
+  - path: product.png
+    alt: The BayStacker home page showing the diagnosis-first pitch and the spot reservation counter
