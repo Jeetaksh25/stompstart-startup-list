@@ -1,0 +1,48 @@
+name: Investment Bets
+tagline: Paper trading scored by percentage return
+description: >-
+  A paper trading site where every position uses the same fixed exposure, so the
+  leaderboard ranks percentage return instead of account size. Participants make long or
+  short calls on stocks, the site prices them from real quotes, and the public record
+  shows each participant's history. No real money changes hands.
+problem: >-
+  A public trading leaderboard that ranks by profit rewards a large account, so skill is
+  hard to compare between participants.
+audience:
+  - Retail investors
+  - Finance students
+  - Trading communities
+website: "https://investment-bets.com/"
+access:
+  - kind: signup
+    url: "https://investment-bets.com/"
+categories:
+  - finance
+stage: live
+pricing:
+  model: free
+company:
+  name: Investment Bets
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://investment-bets.com/"
+    title: Official site
+launch:
+  title: Investment Bets released as a percentage-return paper trading leaderboard
+  summary: A paper trading site with fixed exposure per bet and a public skill ranking.
+  occurred_on:
+    precision: day
+    value: 2026-09-29
+  date_basis: effective
+  source:
+    url: "https://news.ycombinator.com/item?id=49893426"
+    title: "Show HN, Investment Bets, market bets at live prices"
+    locator: The submission announces the site and links it
+logo:
+  path: logo.png
+  alt: "The Investment Bets logo, a square app icon"
+gallery:
+  - path: product.png
+    alt: The Investment Bets share image showing the leaderboard
