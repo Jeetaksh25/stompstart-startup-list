@@ -1,0 +1,49 @@
+name: LightSpeed
+tagline: An interactive visualiser of time dilation
+description: >-
+  A browser toy that shows relativistic time dilation as you move. The user sets a speed
+  and watches how much slower a clock travelling at that speed would run relative to a
+  stationary one, with the effect drawn rather than described. It runs in the page with
+  no install and no account.
+problem: >-
+  Time dilation is usually taught as a formula, which hides how lopsided the effect
+  becomes as speed approaches the speed of light.
+audience:
+  - Physics students
+  - Science teachers
+  - Curious readers
+website: "https://lightspeed.webland.pl/"
+access:
+  - kind: browse
+    url: "https://lightspeed.webland.pl/"
+categories:
+  - education
+  - data-and-analytics
+stage: live
+pricing:
+  model: free
+company:
+  name: LightSpeed
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://lightspeed.webland.pl/"
+    title: Official site
+launch:
+  title: LightSpeed released as an interactive time dilation visualiser
+  summary: A browser tool that draws the relativistic time dilation at a chosen speed.
+  occurred_on:
+    precision: day
+    value: 2026-09-28
+  date_basis: effective
+  source:
+    url: "https://news.ycombinator.com/item?id=49886039"
+    title: "Show HN, LightSpeed, an interactive visualiser of time dilation"
+    locator: The submission announces the tool and links the site
+logo:
+  path: logo.png
+  alt: "The LightSpeed logo, a square app icon"
+gallery:
+  - path: product.webp
+    alt: The LightSpeed share image showing the time dilation visualiser
