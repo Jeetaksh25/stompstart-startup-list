@@ -1,0 +1,49 @@
+name: GoTournamint
+tagline: A word game where you pick the hidden words
+description: >-
+  A daily word game with the roles reversed: instead of guessing a word somebody else
+  chose, the player chooses the words and shares the challenge. Each round is scored,
+  and a tournament format lets a group play through several rounds rather than comparing
+  a single daily score.
+problem: >-
+  A daily word game gives every player the same puzzle once, which leaves nothing to
+  decide and nothing to compare between friends over time.
+audience:
+  - Puzzle players
+  - Friend groups
+  - Teachers
+website: "https://gotournamint.com/"
+access:
+  - kind: browse
+    url: "https://gotournamint.com/"
+categories:
+  - everyday-life
+  - social
+stage: live
+pricing:
+  model: free
+company:
+  name: GoTournamint
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://gotournamint.com/"
+    title: Official site
+launch:
+  title: GoTournamint released as a word game where you choose the words
+  summary: A daily word game that reverses the usual roles and adds a tournament format.
+  occurred_on:
+    precision: day
+    value: 2026-09-29
+  date_basis: effective
+  source:
+    url: "https://news.ycombinator.com/item?id=49894378"
+    title: "Show HN, GoTournamint, Wordle where you choose words for friends"
+    locator: The submission announces the game and links the site
+logo:
+  path: logo.png
+  alt: "The GoTournamint logo, a square app icon"
+gallery:
+  - path: product.png
+    alt: The GoTournamint share image showing the word game
