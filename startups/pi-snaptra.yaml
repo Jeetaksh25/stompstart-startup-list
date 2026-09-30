@@ -1,0 +1,52 @@
+name: SnapTrade Pi
+tagline: A desk display for a connected portfolio
+description: >-
+  A hardware project that puts a brokerage balance on a small e-paper screen. The
+  display shows a pairing code, the owner approves access from a phone through
+  SnapTrade, and the Pi then totals the supported balances and shows the number. The
+  build instructions and the firmware are published as an open repository, and the site
+  is explicit that the photograph is a prototype.
+problem: >-
+  Checking a portfolio means opening an app and scrolling, which is more attention than
+  a single balance deserves.
+audience:
+  - Retail investors
+  - Raspberry Pi builders
+  - Desk setup enthusiasts
+website: "https://pi.snaptra.de/"
+access:
+  - kind: browse
+    url: "https://pi.snaptra.de/"
+categories:
+  - hardware
+  - finance
+stage: beta
+pricing:
+  model: free
+company:
+  name: SnapTrade
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://pi.snaptra.de/"
+    title: Project site
+  - url: "https://github.com/SnapTradeHQ/snaptrade-pi"
+    title: Build repository
+launch:
+  title: SnapTrade Pi project page published
+  summary: A Raspberry Pi e-paper display that shows a connected portfolio balance.
+  occurred_on:
+    precision: day
+    value: 2026-09-28
+  date_basis: effective
+  source:
+    url: "https://github.com/SnapTradeHQ/snaptrade-pi"
+    title: SnapTrade Pi build repository
+    locator: The repository publishes the build and dates the first release
+logo:
+  path: logo.png
+  alt: The SnapTrade Pi project logo
+gallery:
+  - path: product.png
+    alt: "The SnapTrade Pi product mark used as the project's share image"
