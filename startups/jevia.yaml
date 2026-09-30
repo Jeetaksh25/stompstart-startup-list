@@ -1,0 +1,51 @@
+# Jevia: a model router that learns from verified outcomes
+
+name: Jevia
+tagline: Model routing that learns from verified outcomes
+description: >-
+  A command line tool that picks which model tier a coding task should run on
+  and then records whether the result was actually good, so later decisions use
+  those verified outcomes instead of a fixed rule. It installs from a prebuilt
+  binary, so no Rust toolchain is needed, and it keeps its policy file and
+  history local to the machine. The project is open source on GitHub.
+problem: Teams route coding tasks between model tiers by hand, and the choice never learns from which attempts actually worked.
+audience:
+  - Developers running coding agents
+  - Platform engineers managing model spend
+  - Teams comparing model tiers
+website: https://jevia.dev/
+access:
+  - kind: install
+    url: https://jevia.dev/
+categories:
+  - developer-tools
+stage: live
+platforms:
+  - web
+pricing:
+  model: free
+company:
+  name: Jevia
+  relationship: independent
+sources:
+  - url: https://jevia.dev/
+    title: Official site
+  - url: https://github.com/assistant-ui/jevia
+    title: Jevia source repository
+launch:
+  title: Jevia released as an outcome-based model router for coding agents
+  summary: A CLI that routes tasks to a model tier and improves the routing from verified outcomes.
+  occurred_on:
+    precision: day
+    value: "2026-09-29"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=49900995
+    title: Show HN - Jevia, an outcome-based model router for coding agents
+    locator: The submission, posted 2026-09-29, announces the tool and links the site
+logo:
+  path: logo.png
+  alt: The Jevia logo, a square app icon
+gallery:
+  - path: product.png
+    alt: The Jevia home page showing the install step and the routing description
