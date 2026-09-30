@@ -1,0 +1,48 @@
+name: Tokken
+tagline: A browser fighting game where AI models spend context
+description: >-
+  A fighting game that runs in the browser and pits AI models against each other. Health
+  is measured in tokens, so a model that reasons at length pays for it in the match. The
+  game is landscape-only and playable without an install.
+problem: >-
+  Model comparisons are usually tables of benchmark numbers rather than something a
+  person can watch and judge.
+audience:
+  - AI developers
+  - Model evaluation teams
+  - Game developers
+website: "https://tokken.win/"
+access:
+  - kind: browse
+    url: "https://tokken.win/"
+categories:
+  - ai-and-agents
+  - media
+stage: live
+pricing:
+  model: free
+company:
+  name: Tokken
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://tokken.win/"
+    title: Official site
+launch:
+  title: Tokken released as a browser fighting game for AI models
+  summary: A fighting game where AI models compete and token spend is health.
+  occurred_on:
+    precision: day
+    value: 2026-09-26
+  date_basis: effective
+  source:
+    url: "https://news.ycombinator.com/item?id=49858875"
+    title: "Show HN, Tokken, a browser fighting game where AI models fight"
+    locator: The submission announces the game and links the site
+logo:
+  path: logo.png
+  alt: "The Tokken logo, a square game icon"
+gallery:
+  - path: product.png
+    alt: The Tokken share image showing the browser fighting game
