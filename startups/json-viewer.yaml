@@ -1,0 +1,49 @@
+# JSON Viewer: fast, private JSON reading for large files
+
+name: JSON Viewer
+tagline: A browser JSON viewer built to open big files
+description: >-
+  A JSON viewer that keeps working when a file is large. The tree loads in
+  chunks, so a multi-megabyte API response opens without freezing the tab, and
+  search covers every key and value. Parsing runs in the browser, so the
+  document stays on the machine that opened it.
+problem: Most online JSON tools are built for small snippets, and a large file either freezes the tab or gets uploaded to a server the reader does not control.
+audience:
+  - Developers reading large API responses
+  - Engineers inspecting log exports
+  - Analysts working with data files
+website: https://json-viewer.smolkapps.com/
+access:
+  - kind: browse
+    url: https://json-viewer.smolkapps.com/
+categories:
+  - developer-tools
+  - productivity
+stage: live
+pricing:
+  model: free
+company:
+  name: Smolk Apps
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: https://json-viewer.smolkapps.com/
+    title: Official site
+launch:
+  title: JSON Viewer released for large-file reading in the browser
+  summary: A free browser tool that renders big JSON documents incrementally and keeps the data local.
+  occurred_on:
+    precision: day
+    value: "2026-09-29"
+  date_basis: effective
+  source:
+    url: https://news.ycombinator.com/item?id=49896165
+    title: Show HN - Chrome does not have a good JSON viewer, so I built a fast, private one
+    locator: The submission, posted 2026-09-29, announces the viewer as released and links the site
+logo:
+  path: logo.png
+  alt: The JSON Viewer logo, a rounded square app icon with braces
+gallery:
+  - path: product.png
+    alt: The JSON Viewer page showing the tool's title, tagline and the button that opens the viewer
