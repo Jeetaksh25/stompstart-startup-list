@@ -1,0 +1,51 @@
+name: Unlisted Careers
+tagline: Job search across company career sites
+description: >-
+  A job search that reads company career pages directly instead of a board that collects
+  reposts. It tolerates spelling mistakes in a query, filters on seven fields, scores
+  each opening against a resume, and tracks a saved job through to an offer. The site
+  reports the number of direct openings it can see and how many arrived in the last
+  hour.
+problem: >-
+  Job boards carry reposts and expired listings, so a search returns roles that the
+  company is no longer hiring for.
+audience:
+  - Job seekers
+  - Recruiters
+  - Career changers
+website: "https://unlisted.careers/"
+access:
+  - kind: browse
+    url: "https://unlisted.careers/"
+categories:
+  - jobs-and-hr
+  - data-and-analytics
+stage: live
+pricing:
+  model: usage_based
+  pricing_url: "https://unlisted.careers/"
+company:
+  name: Unlisted Careers
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://unlisted.careers/"
+    title: Official site
+launch:
+  title: Unlisted Careers released as a direct-from-career-site job search
+  summary: A search that reads company career pages and scores each opening against a resume.
+  occurred_on:
+    precision: day
+    value: 2026-09-23
+  date_basis: effective
+  source:
+    url: "https://news.ycombinator.com/item?id=49893006"
+    title: "Show HN, check whether a job posting is still real before you apply"
+    locator: The submission announces the search and links the site
+logo:
+  path: logo.png
+  alt: "The Unlisted Careers logo, a square app tile"
+gallery:
+  - path: product.png
+    alt: The Unlisted Careers share image showing the search product
