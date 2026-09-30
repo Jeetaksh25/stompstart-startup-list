@@ -1,0 +1,48 @@
+name: Asusu Oma
+tagline: Guided Igbo practice with recorded voices
+description: >-
+  A free app for learning Igbo, built around a learning path rather than a dictionary.
+  Lessons come with recorded Igbo voices, and the site carries a resources section and a
+  blog alongside the practice material. It is aimed at people who grew up hearing the
+  language and want to speak it.
+problem: >-
+  Igbo learning material online is thin and rarely includes recorded speech, so learners
+  practice from text alone.
+audience:
+  - Igbo learners
+  - Heritage speakers
+  - Language students
+website: "https://asusuoma.com/"
+access:
+  - kind: browse
+    url: "https://asusuoma.com/"
+categories:
+  - education
+stage: live
+pricing:
+  model: free
+company:
+  name: Asusu Oma
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://asusuoma.com/"
+    title: Official site
+launch:
+  title: Asusu Oma released as a free Igbo learning app
+  summary: A guided Igbo practice app with recorded voices and a learning path.
+  occurred_on:
+    precision: day
+    value: 2026-09-26
+  date_basis: effective
+  source:
+    url: "https://news.ycombinator.com/item?id=49855738"
+    title: "Show HN, Asusu Oma, a free app for learning Igbo with native-speaker audio"
+    locator: The submission announces the app and links the site
+logo:
+  path: logo.png
+  alt: "The Asusu Oma logo, a square app icon"
+gallery:
+  - path: product.png
+    alt: The Asusu Oma share image showing the learning app
