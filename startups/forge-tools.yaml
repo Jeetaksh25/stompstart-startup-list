@@ -1,0 +1,48 @@
+name: Forge Tools
+tagline: Engineering calculators for the workshop
+description: >-
+  A set of calculators for workshop and garage work, built around practical units rather
+  than textbook ones. Each tool states the method it uses, so the number can be checked
+  by hand. The site adds tools over time and lists what arrived most recently.
+problem: >-
+  Workshop maths is usually spread across scattered web calculators that do not show how
+  the answer was reached.
+audience:
+  - Machinists
+  - Workshop engineers
+  - Hardware makers
+website: "https://www.forgehw.dev/"
+access:
+  - kind: browse
+    url: "https://www.forgehw.dev/"
+categories:
+  - hardware
+  - developer-tools
+stage: live
+pricing:
+  model: free
+company:
+  name: Forge Tools
+  relationship: independent
+platforms:
+  - web
+sources:
+  - url: "https://www.forgehw.dev/"
+    title: Official site
+launch:
+  title: Forge Tools released as a set of engineering calculators
+  summary: "Practical calculators for the workshop, each with a stated method."
+  occurred_on:
+    precision: day
+    value: 2026-09-28
+  date_basis: effective
+  source:
+    url: "https://news.ycombinator.com/item?id=49884078"
+    title: "Show HN, Forge Tools"
+    locator: The submission announces the tool collection and links the site
+logo:
+  path: logo.png
+  alt: "The Forge Tools logo, a square app icon"
+gallery:
+  - path: product.png
+    alt: The Forge Tools share image showing the calculator collection
